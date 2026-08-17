@@ -282,4 +282,4 @@ export const MOCK_DETAIL: AnimeDetail = {
     }
   ],
   recommendations: MOCK_TRENDING.slice(9, 15) // Recommends titles like Demon Slayer and JJK
-};
+}; 
