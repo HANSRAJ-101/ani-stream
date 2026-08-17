@@ -83,7 +83,6 @@ export const MOCK_DETAIL: AnimeDetail = {
       vaLanguage: "Japanese"
     }
   ],
-<<<<<<< HEAD
   episodeList: Array.from({ length: 24 }, (_, i) => ({
     number: i + 1,
     title: `Episode ${i + 1}`,
@@ -96,19 +95,3 @@ export const MOCK_DETAIL: AnimeDetail = {
   })),
   recommendations: MOCK_TRENDING.slice(1, 7)
 };
-=======
-  episodeList: [
-    {
-      number: 1,
-      title: "Movie",
-      thumbnail: "https://image.tmdb.org/t/p/w500/pHyxb2RV5wLlboAwm9ZJ9qTVEDw.jpg",
-      durationSec: 6000,
-      videoUrl: getMockVideoUrl(5, 1),
-      introStartSec: 0,
-      introEndSec: 90,
-      outroStartSec: 5800
-    }
-  ],
-  recommendations: MOCK_TRENDING.slice(9, 15) // Recommends titles like Demon Slayer and JJK
-}; 
->>>>>>> 7662dc2f2aa365686fc8e3b9098a5b6036407f29
