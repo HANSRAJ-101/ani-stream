@@ -17,10 +17,20 @@ const tabs: { key: "continue" | WatchlistEntry["category"]; label: string }[] = 
   { key: "completed", label: "Completed" }
 ];
 
+const VALID_TAB_KEYS = tabs.map((t) => t.key);
+
+function resolveInitialTab(param: string | null): (typeof tabs)[number]["key"] {
+  if (param && (VALID_TAB_KEYS as string[]).includes(param)) {
+    return param as (typeof tabs)[number]["key"];
+  }
+  return "continue";
+}
+
 export default function WatchlistView() {
   const searchParams = useSearchParams();
-  const initialTab = searchParams.get("tab") === "watching" ? "continue" : "continue";
-  const [tab, setTab] = useState<(typeof tabs)[number]["key"]>(initialTab as any);
+  const [tab, setTab] = useState<(typeof tabs)[number]["key"]>(() =>
+    resolveInitialTab(searchParams.get("tab"))
+  );
 
   const { byCategory, remove: removeFromList } = useWatchlist();
   const { entries: continueEntries, remove: removeProgress } = useContinueWatching();

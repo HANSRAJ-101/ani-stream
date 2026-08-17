@@ -6,7 +6,7 @@ const nextConfig = {
       { protocol: "https", hostname: "s4.anilist.co" },
       { protocol: "https", hostname: "img1.ak.crunchyroll.com" },
       { protocol: "https", hostname: "artworks.thetvdb.com" },
-      { protocol: "https", hostname: "**" }
+      { protocol: "https", hostname: "picsum.photos" }
     ]
   }
 };
