@@ -161,9 +161,9 @@ export const VIDEO_SOURCE_MAP: Record<number, Record<number, string>> = {
     14: "https://bysedikamoum.com/e/6k930jka2wbz"
   },
   31: {
-    1: "https://bysedikamoum.com/e/tpjw6o5pkw13",
-    2: "https://bysedikamoum.com/e/cb1lun3gc948",
-    3: "https://bysedikamoum.com/e/t4ixc5fk4v4d",
+    1: "https://bysedikamoum.com/e/geuixckic83r",
+    2: "https://bysedikamoum.com/e/geuixckic83r",
+    3: "https://bysedikamoum.com/e/geuixckic83r",
     4: "https://bysedikamoum.com/e/0yigez5wad7a",
     5: "https://bysedikamoum.com/e/jynuch9515bp",
     6: "https://bysedikamoum.com/e/6tpfswrv22aw",
