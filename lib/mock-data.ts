@@ -161,7 +161,7 @@ export const VIDEO_SOURCE_MAP: Record<number, Record<number, string>> = {
     14: "https://bysedikamoum.com/e/6k930jka2wbz"
   },
   31: {
-    1: "https://bysedikamoum.com/e/tpjw6o5pkw13",
+    1: "https://bysedikamoum.com/e/geuixckic83r", // Updated URL for Episode 1
     2: "https://bysedikamoum.com/e/cb1lun3gc948",
     3: "https://bysedikamoum.com/e/t4ixc5fk4v4d",
     4: "https://bysedikamoum.com/e/0yigez5wad7a",
@@ -172,7 +172,7 @@ export const VIDEO_SOURCE_MAP: Record<number, Record<number, string>> = {
     9: "https://bysedikamoum.com/e/8fpbykp8d3js",
     10: "https://bysedikamoum.com/e/3uzepi5v0jyc",
     11: "https://bysedikamoum.com/e/r3037sub2kof",
-    12: "https://bysedikamoum.com/e/geuixckic83r"
+    12: "https://bysedikamoum.com/e/geuixckic83r"  // Previously assigned URL for Episode 12
   }
 };
 
