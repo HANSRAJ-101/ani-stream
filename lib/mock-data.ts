@@ -176,10 +176,6 @@ export const VIDEO_SOURCE_MAP: Record<number, Record<number, string>> = {
   }
 };
 
-const DEMO_HLS_STREAM = "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8";
-
-export function getMockVideoUrl(animeId: number, episodeNumber: number): string {
-  return VIDEO_SOURCE_MAP[animeId]?.[episodeNumber] || DEMO_HLS_STREAM;
 }
 
 function summary(data: {
